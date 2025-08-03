@@ -140,27 +140,6 @@ export default function SuccessPage() {
                   </Typography>
                 </Stack>
               </Box>
-
-              {/* Ana Sayfaya Dön */}
-              <Button
-                variant="outlined"
-                size="large"
-                onClick={() => router.push('/')}
-                sx={{
-                  py: 1.5,
-                  px: 3,
-                  fontSize: '0.95rem',
-                  fontWeight: 500,
-                  borderColor: theme.palette.grey[300],
-                  color: theme.palette.text.primary,
-                  '&:hover': {
-                    borderColor: theme.palette.text.primary,
-                    backgroundColor: alpha(theme.palette.text.primary, 0.04),
-                  },
-                }}
-              >
-                Ana Sayfaya Dön
-              </Button>
             </Stack>
           </CardContent>
         </Card>
